@@ -3,10 +3,10 @@
 # Recipe:: default
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
-# Install the Apache2 package.
+# Install the httpd package.
 package 'httpd'
 
-# Enable and start the Apache2 service.
+# Enable and start the httpd service.
 service 'httpd' do
   action [:enable, :start]
 end
